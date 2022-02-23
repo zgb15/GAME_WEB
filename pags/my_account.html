@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Account</title>
+        <link rel="stylesheet" href="../estilos/styles.css">
+        <link rel="stylesheet" href="../estilos/grid_system.css">
+        <script src="../js/main.js"></script>
+    </head>
+    <body>
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+
+        <div class="container">
+            <!-- Navigation -->
+            <nav class="nav-main">
+                <!-- Brand -->
+                <a href="../index.html">
+                    <img src="../img/logo_game.png" class="nav-brand">
+                </a>
+                <!-- Left Nav -->
+                <ul class="nav-menu">
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn" onclick="desplegable1()">My Account </a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="log_in.html">Log in</a>
+                            <a class="register" href="my_account.html">Register</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="play_station.html">Play Station</a>
+                    </li>
+                    <li>
+                        <a href="xbox.html">XBox</a>
+                    </li>
+                    <li>
+                        <a href="nintendo.html">Nintendo</a>
+                    </li>
+                    <li>
+                        <a onclick="popup()" href="https://www.game.es/PC-GAMING">PC Gaming</a>
+                    </li>
+                    <li class="dropdown2">
+                        <a href="javascript:void(0)" class="dropbtn2" onclick="desplegable2()"> Videogames </a>
+                        <div class="dropdown-content2" id="myDropdown2">
+                            <a onclick="popup()" href="https://www.game.es/VIDEOJUEGOS"> New</a>
+                            <a onclick="popup()" href="https://www.game.es/SEMINUEVOS">Preowned</a>
+                            <a onclick="popup()" href="https://www.game.es/bajan-de-precio-game">Offers</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a onclick="popup()" href="https://www.game.es/CINE-COMICS">Comics</a>
+                    </li>
+                    <li class="dropdown3">
+                        <a href="javascript:void(0)" class="dropbtn3" onclick="desplegable3()"> Merchandising </a>
+                        <div class="dropdown-content3" id="myDropdown3">
+                            <a onclick="popup()" href="https://www.game.es/MERCHAN/Figuras-POP"> Funko Pops</a>
+                            <a onclick="popup()" href="https://www.game.es/buscar/figura-amiibo/o=7&cf=Disponible:-5:GIDS">Amiibo</a>
+                            <a onclick="popup()" href="https://www.game.es/buscar/merc-peluche-nuevo/o=7&cf=Disponible:-5:GIDS"> Toys</a>
+                            <a onclick="popup()" href="https://www.game.es/MERCHAN/ROPA">Clothes</a>
+                            <a onclick="popup()" href="https://www.game.es/buscar/poster/o=7&cf=Disponible:-5:GIDS">Posters</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Right Nav -->
+                <ul class="nav-menu-right">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+
+            <div id="formulario">
+                <form action="" method="POST" id="form">
+                    <div class = "form">
+                        <h1> Registration </h1>
+                        <div class="grupo">
+                            <input type="text" name="nombre" id="name" required> <span class="barra"> </span>
+                            <label> Name </label>
+                            <p id="respuestaNombre"> </p>
+                        </div>
+                        <div class="grupo">
+                            <input type="email" name="email" id="email" required> <span class="barra"> </span>
+                            <label> Email </label>
+                            <p id="respuestaEmail"> </p>
+                        </div>
+                        <div class="grupo">
+                            <input type="password" name="password" id="password" required> <span class="barra"> </span>
+                            <label> Password </label>
+                            <p id="respuestaPassword"> </p>
+                            <p id="respuestaCorrecta"> </p>
+                        </div>
+                        <button type="submit" onclick="validarPassword()"> Submit </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

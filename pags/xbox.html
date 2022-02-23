@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xbox</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="stylesheet" href="../estilos/grid_system.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+<div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+</div>
+
+<div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+        <!-- Brand -->
+        <a href="../index.html">
+            <img src="../img/logo_game.png" class="nav-brand">
+        </a>
+        <!-- Left Nav -->
+        <ul class="nav-menu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn" onclick="desplegable1()">My Account </a>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="log_in.html">Log in</a>
+                    <a class="register" href="my_account.html">Register</a>
+                </div>
+            </li>
+            <li>
+                <a href="play_station.html">Play Station</a>
+            </li>
+            <li>
+                <a href="xbox.html">XBox</a>
+            </li>
+            <li>
+                <a href="nintendo.html">Nintendo</a>
+            </li>
+            <li>
+                <a onclick="popup()" href="https://www.game.es/PC-GAMING">PC Gaming</a>
+            </li>
+            <li class="dropdown2">
+                <a href="javascript:void(0)" class="dropbtn2" onclick="desplegable2()"> Videogames </a>
+                <div class="dropdown-content2" id="myDropdown2">
+                    <a onclick="popup()" href="https://www.game.es/VIDEOJUEGOS"> New</a>
+                    <a onclick="popup()" href="https://www.game.es/SEMINUEVOS">Preowned</a>
+                    <a onclick="popup()" href="https://www.game.es/bajan-de-precio-game">Offers</a>
+                </div>
+            </li>
+            <li>
+                <a onclick="popup()" href="https://www.game.es/CINE-COMICS">Comics</a>
+            </li>
+            <li class="dropdown3">
+                <a href="javascript:void(0)" class="dropbtn3" onclick="desplegable3()"> Merchandising </a>
+                <div class="dropdown-content3" id="myDropdown3">
+                    <a onclick="popup()" href="https://www.game.es/MERCHAN/Figuras-POP"> Funko Pops</a>
+                    <a onclick="popup()" href="https://www.game.es/buscar/figura-amiibo/o=7&cf=Disponible:-5:GIDS">Amiibo</a>
+                    <a onclick="popup()" href="https://www.game.es/buscar/merc-peluche-nuevo/o=7&cf=Disponible:-5:GIDS"> Toys</a>
+                    <a onclick="popup()" href="https://www.game.es/MERCHAN/ROPA">Clothes</a>
+                    <a onclick="popup()" href="https://www.game.es/buscar/poster/o=7&cf=Disponible:-5:GIDS">Posters</a>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Right Nav -->
+        <ul class="nav-menu-right">
+            <li>
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <!-- SLIDER -->
+    <header>
+        <div class="showcase">
+            <div class="slider">
+                <ul>
+                    <li>
+                        <img src="../img/xbox.slider1.PNG" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/xbox.slider2.PNG" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/xbox.slider3.PNG" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/xbox.slider4.PNG" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="news-cards">
+        <div>
+            <a href="#">
+                <img src="../img/xbox.card1.jpeg" onmouseover="this.src='../img/buy_it2.png'" onmouseout="this.src='../img/xbox.card1.jpeg'">
+            </a>
+            <h3> Xbox Series X Reservation</h3>
+            <p> One of our past best-sellers! Now available for just 1 month and the'll be out of stock with no reposition, be fast!
+            </p>
+            <a href="https://apptrigger.com/2021/02/28/ps5-xboxstation-5-games-march-2021/">Read more<i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/xbox.card3.jpg" onmouseover="this.src='../img/buy_it2.png'" onmouseout="this.src='../img/xbox.card3.jpg'">
+            </a>
+            <h3> Selection of Lego Games for Xbox</h3>
+            <p> You can make your reservation by clicking above. xbox Station 5 is completely out of stock right now, but we will have more in just a few weeks.
+            </p>
+            <a href="https://rog.asus.com/articles/coming-soon/the-rog-strix-gl10dh-packs-3rd-gen-ryzen-into-an-affordable-gaming-desktop/">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/xbox.card2.jpg" onmouseover="this.src='../img/buy_it2.png'" onmouseout="this.src='../img/xbox.card2.jpg'">
+            </a>
+            <h3> Xbox One S Last Stocks </h3>
+            <p> We have been selling xbox station controllers for so long, we even have some kind of love for them. This offer is a gift from us to you, because you will earn four universal controllers
+                for a really affordable price!
+            </p>
+            <a href="https://www.theverge.com/2021/3/1/22303170/xbox-series-x-s-restock-microsoft-store-antonline">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="../img/xbox.card4.jpg" onmouseover="this.src='../img/buy_it2.png'" onmouseout="this.src='../img/xbox.card4.jpg'">
+            </a>
+            <h3>Xbox Accessories</h3>
+            <p> As PS5 is now out of stock, we have many accumulated controllers in stock that we sell separated from the console. We truly recomend you to
+                buy one now that they are in big offer, and reservate your PS5 to be sure you will use them soon!
+            </p>
+            <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+    </div>
+
+    <!-- video1 -->
+    <section class="cards-banner-two" style="text-align: center;">
+        <div class="content" style="text-align:center;">
+            <video controls onmouseover="this.play()" src="../img/trailer_xbox.mp4" width="640" height="360"> </video>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Game</h3>
+    </footer>
+</div>
+</body>
+</html>

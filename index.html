@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/grid_system.css">
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+      <nav class="nav-main">
+        <!-- Logo -->
+        <a href="index.html">
+          <img alt="" src="img/logo_game.png" class="nav-brand">
+        </a>
+        <!-- izquierda -->
+        <ul class="nav-menu">
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" onclick="desplegable1()">My Account </a>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="pags/log_in.html">Log in</a>
+              <a class="register" href="pags/my_account.html">Register</a>
+            </div>
+          </li>
+          <li>
+            <a href="pags/play_station.html">Play Station</a>
+          </li>
+          <li>
+            <a href="pags/xbox.html">XBox</a>
+          </li>
+          <li>
+            <a href="pags/nintendo.html">Nintendo</a>
+          </li>
+          <li>
+            <a onclick="popup()" href="https://www.game.es/PC-GAMING">PC Gaming</a>
+          </li>
+          <li class="dropdown2">
+            <a href="javascript:void(0)" class="dropbtn2" onclick="desplegable2()"> Videogames </a>
+            <div class="dropdown-content2" id="myDropdown2">
+              <a onclick="popup()" href="https://www.game.es/VIDEOJUEGOS"> New</a>
+              <a onclick="popup()" href="https://www.game.es/SEMINUEVOS">Preowned</a>
+              <a onclick="popup()" href="https://www.game.es/bajan-de-precio-game">Offers</a>
+            </div>
+          </li>
+          <li>
+            <a onclick="popup()" href="https://www.game.es/CINE-COMICS">Comics</a>
+          </li>
+          <li class="dropdown3">
+            <a href="javascript:void(0)" class="dropbtn3" onclick="desplegable3()"> Merchandising </a>
+            <div class="dropdown-content3" id="myDropdown3">
+              <a onclick="popup()" href="https://www.game.es/MERCHAN/Figuras-POP"> Funko Pops</a>
+              <a onclick="popup()" href="https://www.game.es/buscar/figura-amiibo/o=7&cf=Disponible:-5:GIDS">Amiibo</a>
+              <a onclick="popup()" href="https://www.game.es/buscar/merc-peluche-nuevo/o=7&cf=Disponible:-5:GIDS"> Toys</a>
+              <a onclick="popup()" href="https://www.game.es/MERCHAN/ROPA">Clothes</a>
+              <a onclick="popup()" href="https://www.game.es/buscar/poster/o=7&cf=Disponible:-5:GIDS">Posters</a>
+            </div>
+          </li>
+        </ul>
+
+        <!-- derecha -->
+        <ul class="nav-menu-right">
+          <li>
+            <a href="#">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <!-- SLIDER -->
+      <header class="showcase">
+        <div class="slider">
+          <ul>
+            <li>
+              <img src="img/slider1.PNG" alt="">
+            </li>
+            <li>
+              <img src="img/slider2.PNG" alt="">
+            </li>
+            <li>
+              <img src="img/slider3.PNG" alt="">
+            </li>
+            <li>
+              <img src="img/slider4.PNG" alt="">
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- Cards1 -->
+      <div class="news-cards">
+        <div>
+          <img src="img/card1.jpg"  alt="" />
+          <h3> PS5: New PlayStation 5 game releases for March 2021</h3>
+          <p>After a relatively quiet February, which was capped off with the release of the critically-acclaimed Persona 5 Strikers,
+            the PlayStation 5 sees quite a few re-releases and a few original titles arrive in March.
+            The PS5 is lacking a heavy-hitter this month unless
+            you haven’t played Control but there are some interesting games.
+          </p>
+          <a href="https://apptrigger.com/2021/02/28/ps5-playstation-5-games-march-2021/">Read more<i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card2.jpg" alt="" />
+          <h3>THE ROG STRIX GL10DH PACKS 3RD GEN RYZEN INTO AN AFFORDABLE GAMING DESKTOP</h3>
+          <p>The PC gaming community is much more diverse than when the Republic of Gamers first began over a decade ago.
+            Everyday players with broader interests are no longer exceptions in a sea of enthusiasts, so we’ve expanded our family
+            of purpose-built gaming machines and laptops to better cater to gamers of every creed.
+          </p>
+          <a href="https://rog.asus.com/articles/coming-soon/the-rog-strix-gl10dh-packs-3rd-gen-ryzen-into-an-affordable-gaming-desktop/">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card3.jpg" alt="" />
+          <h3> Xbox Series X and S restocks available at the Microsoft Store </h3>
+          <p>If you are having a hard time finding an Xbox Series X or Series S, you have another chance to buy one.
+            Microsoft’s direct website has restocked both of its next-gen consoles, the Xbox Series X and Series S.
+          </p>
+          <a href="https://www.theverge.com/2021/3/1/22303170/xbox-series-x-s-restock-microsoft-store-antonline">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card4.jpg" alt="" />
+          <h3>New Nintendo Rumor Potentially Sheds Light on Nintendo Switch Pro</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+            doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+          </p>
+          <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Banner -->
+      <section class="cards-banner-one">
+        <div class="content">
+          <br> <br> <br> <br>
+          <a href="#" class="btn">Buy It<i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+
+      <!-- Cards2 -->
+      <div class="news-cards2" onload="apareceScroll()">
+        <div>
+          <img src="img/card5.jpg" class="zoom" alt="" />
+          <h3 class="zoom">The Hidden Significance of One Piece’s Pirate Clothing</h3>
+          <p class="zoom">
+            One Piece's creator uses quintessential pirate clothing to make significant statements about the characters who are accessorized by iconic items.
+            There's a lot to be said about how One Piece lifts from history in portraying pirates,
+            their legacies and replicating the time when piracy was far more commonplace.
+          </p>
+          <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+
+        <div>
+          <img src="img/card6.jpg" class="zoom" alt="" />
+          <h3 class="zoom" >Dragon Ball Sets Up Broly's Return in New Arc</h3>
+          <p class="zoom">Dragon Ball has danced with Broly for years now, and the character has had a renaissance in the last decade.
+            The character's static role in Dragon Ball Z has been expanded in a huge way thanks to his big-screen stint with Dragon Ball Super.
+            Nowadays, the Saiyan is enjoying his canon status, and he has enjoyed a
+            comeback in Dragon Ball Heroes that is poised to lead on into a new arc.
+          </p>
+          <a href="#">Read More<i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card7.jpeg" class="zoom" alt="" />
+          <h3 class="zoom">'Black Panther' Costume Designer Ruth E. Carter Honored with Star on Hollywood Walk of Fame</h3>
+          <p class="zoom">Famed costume designer Ruth E. Carter made history in 2019 at the Academy Awards with her Oscar win for her
+            work on Marvel Studios' Black Panther, and she made history again today when the Hollywood Chamber of Commerce honored Carter with a star on the
+            Hollywood Walk of Fame making her the second costume designer.
+          </p>
+          <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card8.jpg" class="zoom" alt="" />
+          <h3 class="zoom">My Hero Academia Releases New Season 5 Key Visual!</h3>
+          <p class="zoom"> Inspired by Kohei Horikoshi's popular manga, the franchise follows protagonist Izuku Midoriya, who was born without a
+            “Quirk” in a world in which most people have superpowers.
+            In spite of this disadvantage, he goes on to attend a special academy to become a superhero and save the world.
+          </p>
+          <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Video -->
+      <section class="cards-banner-two">
+        <div class="content" style="text-align:center;">
+          <video controls onmouseover="this.play()" src="img/trailer_pokemon.mp4" width="640" height="360"> </video>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h3>Game</h3>
+    </footer>
+
+    </div>
+  </body>
+</html>
